@@ -1,0 +1,46 @@
+@charset "UTF-8";
+  div{
+        background-color: rgb(5, 206, 251);
+        background-image: linear-gradient(45deg, rgb(196, 224, 231), rgb(27, 199, 247) ) ;
+        margin: 100px 300px;
+        padding: 90px;
+        border-radius: 30px;
+    }
+    body{
+        background-image: linear-gradient(45deg, rgb(95, 161, 176), rgb(119, 172, 187) ); 
+    }
+    input{
+        margin: 10px;
+        height: 30px;
+        width: 250px;
+        border-radius: 30px;
+        border:1px solid rgb(64, 86, 115);
+        text-indent: 25px;
+    
+    }
+    h3{
+        color: rgb(0, 0, 0);
+        font-size: 25px;
+        font-weight: bold;
+    }
+    label{
+        font-size: 19px;
+        font-weight: bold;
+    }
+    button{
+        margin: 20px;
+        width: 250px;
+        height: 35px;
+        border-radius: 30px;
+        background-color: rgb(22, 181, 244);
+        cursor: pointer;
+        border:1px solid rgb(150, 153, 157);
+        font-weight: bold;
+        font-size: 17px;
+    }
+    button:hover{
+
+        color: white;
+        transition: 0.3s;
+        transform: scale(1.05);
+    }
